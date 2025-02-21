@@ -1,0 +1,26 @@
+{
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "autoDocstring.docstringFormat": "google",
+    "autoDocstring.generateDocstringOnEnter": true,
+    "autoDocstring.startOnNewLine": true,
+    "cSpell.words": [
+        "datamart",
+        "sparki",
+        "devbooks",
+        "testhelpers"
+    ],
+    "[yaml]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "python.testing.pytestArgs": [
+        "projects", "src"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "python.analysis.extraPaths": [],
+    "terminal.integrated.env.windows": {
+       "BIGQUERY_PROJECT": "soy-framing-451514-f3"
+    }
+}
