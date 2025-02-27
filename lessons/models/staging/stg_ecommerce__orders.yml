@@ -60,7 +60,7 @@ models:
                 - Cancelled
                 - Shipped
                 - Complete
-                - Returned
+                # - Returned
 
       - name: num_items_ordered
         description: "Number of items in the order"
