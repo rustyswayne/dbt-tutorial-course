@@ -8,6 +8,10 @@ groups:
       slack: sales-data
       github: sales-data-team
 
+  - name: marketing
+    owner:
+      email: marketing@my-company.com
+
 models:
   - name: orders
     description: "Table of order level information"

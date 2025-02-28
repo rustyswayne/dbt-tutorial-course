@@ -2,7 +2,7 @@
 
 {{
    config(
-       target_schema='dbt_lessions_dev',
+       target_schema='dbt_snapshots',
        unique_key='id',
        strategy='check',
        check_cols=['name', 'latitude', 'longitude']
