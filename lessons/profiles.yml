@@ -1,4 +1,5 @@
 lessons:
+  target: dev
   outputs:
     dev:
       dataset: dbt_lessions_dev
@@ -10,4 +11,14 @@ lessons:
       project: soy-framing-451514-f3
       threads: 60
       type: bigquery
-  target: dev
+
+    testing:
+      dataset: dbt_lessions_test
+      job_execution_timeout_seconds: 300
+      job_retries: 1
+      location: US
+      method: oauth
+      priority: interactive
+      project: soy-framing-451514-f3
+      threads: 60
+      type: bigquery

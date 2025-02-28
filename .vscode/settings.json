@@ -31,5 +31,8 @@
         "DBT_PROFILES_DIR": ".",
 		"BIGQUERY_PROJECT": "soy-framing-451514-f3"
     },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
 
 }
