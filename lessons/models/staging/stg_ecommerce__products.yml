@@ -41,5 +41,18 @@ models:
               quote: true
               severity: error
 
-      # - name: brand
-      #   description: "Brand of the product"
+      - name: brand
+        description: "Brand of the product"
+
+    latest_version: 2
+    versions:
+      - v: 1
+        columns:
+          - include: all
+            exclude: [brand]
+
+      - v: 2
+        columns:
+          - include: all
+        config:
+          alias: stg_ecommerce__products
