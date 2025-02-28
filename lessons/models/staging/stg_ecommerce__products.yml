@@ -41,5 +41,5 @@ models:
               quote: true
               severity: error
 
-      - name: brand
-        description: "Brand of the product"
+      # - name: brand
+      #   description: "Brand of the product"

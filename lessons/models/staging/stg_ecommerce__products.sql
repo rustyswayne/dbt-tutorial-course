@@ -11,8 +11,7 @@ SELECT
 	-- Other columns
 	cost,
 	retail_price,
-	department,
-	brand -- new column added in v2
+	department
 
 	{#- Unused columns:
 		- inventory_item_id
